@@ -15,6 +15,8 @@
 		01897DA823961D8200D9E4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01897DA623961D8200D9E4FB /* LaunchScreen.storyboard */; };
 		01897DB323961D8200D9E4FB /* TestSPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01897DB223961D8200D9E4FB /* TestSPMTests.swift */; };
 		01897DBE23961D8200D9E4FB /* TestSPMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01897DBD23961D8200D9E4FB /* TestSPMUITests.swift */; };
+		01897DD32396203200D9E4FB /* MyFoundation in Resources */ = {isa = PBXBuildFile; fileRef = 01897DD223961FEE00D9E4FB /* MyFoundation */; };
+		01897DD42396203A00D9E4FB /* MyFoundation in Frameworks */ = {isa = PBXBuildFile; fileRef = 01897DD223961FEE00D9E4FB /* MyFoundation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		01897DB923961D8200D9E4FB /* TestSPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01897DBD23961D8200D9E4FB /* TestSPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITests.swift; sourceTree = "<group>"; };
 		01897DBF23961D8200D9E4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01897DD223961FEE00D9E4FB /* MyFoundation */ = {isa = PBXFileReference; lastKnownFileType = text; name = MyFoundation; path = Packages/MyFoundation; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01897DD42396203A00D9E4FB /* MyFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +83,7 @@
 		01897D8F23961D8100D9E4FB = {
 			isa = PBXGroup;
 			children = (
+				01897DD123961FE600D9E4FB /* Packages */,
 				01897D9A23961D8100D9E4FB /* TestSPM */,
 				01897DB123961D8200D9E4FB /* TestSPMTests */,
 				01897DBC23961D8200D9E4FB /* TestSPMUITests */,
@@ -142,6 +147,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01897DD123961FE600D9E4FB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				01897DD223961FEE00D9E4FB /* MyFoundation */,
+			);
+			name = Packages;
+			path = TestSPM/Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,7 @@
 				01897DA823961D8200D9E4FB /* LaunchScreen.storyboard in Resources */,
 				01897DA523961D8200D9E4FB /* Preview Assets.xcassets in Resources */,
 				01897DA223961D8200D9E4FB /* Assets.xcassets in Resources */,
+				01897DD32396203200D9E4FB /* MyFoundation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

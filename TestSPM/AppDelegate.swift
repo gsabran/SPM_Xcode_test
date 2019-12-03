@@ -2,6 +2,7 @@
 // Copyright © 2019 Airbnb Inc. All rights reserved.
 
 import UIKit
+import MyFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
